@@ -78,7 +78,11 @@ jobs:
           CONFIG_PACKAGE_kmod-usb3=y
           CONFIG_PACKAGE_automount=y
 
-
+          # Kernel
+          CONFIG_HAS_TESTING_KERNEL=y
+          CONFIG_TESTING_KERNEL=y
+          CONFIG_LINUX_5_15=y
+          
           # APP
           CONFIG_PACKAGE_luci-app-aria2=y
           CONFIG_PACKAGE_luci-app-ddns=y
